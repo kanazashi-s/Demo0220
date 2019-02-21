@@ -13,6 +13,11 @@ Demo0220
 [Cloud Speech-to-Text ドキュメント](https://cloud.google.com/speech-to-text/docs/?hl=ja)  
 [Cloud Natural Language API ドキュメント](https://cloud.google.com/natural-language/docs/)
 
+## Demo
+かなり見にくくなっておりますが、普通に実行しているだけです。  
+![result](https://github.com/zacceydesuyo/Demo0220/blob/development/streaming_recognize_demo.gif)
+
+
 ## Requirement
 - Python3.6.6  
 - Jupyterで実行する場合、Anaconda3
