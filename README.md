@@ -14,8 +14,8 @@ Demo0220
 [Cloud Natural Language API ドキュメント](https://cloud.google.com/natural-language/docs/)
 
 ## Demo
-かなり見にくくなっておりますが、普通に実行しているだけです。  
-![result](https://github.com/zacceydesuyo/Demo0220/blob/development/streaming_recognize_demo.gif)
+よく見ると上部に実行したコマンドが映っています。  
+![result](https://github.com/zashio/Demo0220/blob/master/streaming_recognize_demo.gif)
 
 
 ## Requirement
