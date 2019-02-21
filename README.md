@@ -10,7 +10,7 @@ Demo0220
 </div>
 
 ## Description
-[Cloud Speech-to-Text ドキュメント](https://cloud.google.com/speech-to-text/docs/?hl=ja)
+[Cloud Speech-to-Text ドキュメント](https://cloud.google.com/speech-to-text/docs/?hl=ja)  
 [Cloud Natural Language API ドキュメント](https://cloud.google.com/natural-language/docs/)
 
 ## Requirement
@@ -52,3 +52,24 @@ Demo0220
 `os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= "C:***/***/***.json"`  
 - コマンドライン上で、以下を実行してください。
 `python mic_recog.py`
+- 言語コード（[詳細](https://cloud.google.com/speech-to-text/docs/languages)）を変更したい場合  
+`python mic_recog.py lang=en-US`  
+- 感情推定をONにしたい場合  
+`python mic_recog.py sentiment=True`
+
+## Install
+必要なライブラリは、'requirements.txt'に記述してあります。  
+そのため、以下のコマンドをDemo0220フォルダ内で実行していただくことにより、必要なライブラリがすべてインストールされます。  
+`pip install -r requirements.txt`  
+Anaconda環境にてPythonのインストールを行った場合は、pipコマンドとcondaコマンドを併用してのインストールはおやめください。  
+
+## Contribution  
+お待ちしております。  
+フォークして、新しいブランチを作ってそこに変更点をプッシュしておいてください。  
+プルリクエストもお願いします。  
+
+## Licence  
+This source is licensed under the Apache License, Version2.0
+
+## Author
+zashio
