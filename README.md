@@ -52,10 +52,10 @@ Demo0220
 `os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= "C:***/***/***.json"`  
 - コマンドライン上で、以下を実行してください。
 `python mic_recog.py`
-- 言語コード（[詳細](https://cloud.google.com/speech-to-text/docs/languages)）を変更したい場合  
-`python mic_recog.py lang=en-US`  
+- 言語コード（[詳細](https://cloud.google.com/speech-to-text/docs/languages)）を英語に変更したい場合  
+`python mic_recog.py -lang=en-US`  
 - 感情推定をONにしたい場合  
-`python mic_recog.py sentiment=True`
+`python mic_recog.py -sentiment=True`
 
 ## Install
 必要なライブラリは、'requirements.txt'に記述してあります。  
